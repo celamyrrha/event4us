@@ -11,10 +11,10 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 """
 
 import os
-from django.conf.global_settings import MEDIA_ROOT, DEFAULT_CHARSET,\
+from django.conf.global_settings import MEDIA_ROOT, DEFAULT_CHARSET,LOGOUT_URL, \
     FILE_CHARSET, EMAIL_BACKEND, DEFAULT_FROM_EMAIL, EMAIL_USE_TLS, EMAIL_HOST,\
     EMAIL_HOST_USER, EMAIL_HOST_PASSWORD, EMAIL_PORT, LOGIN_URL,\
-    LOGIN_REDIRECT_URL, LOGOUT_URL, AUTH_USER_MODEL
+    LOGIN_REDIRECT_URL, AUTH_USER_MODEL
 from telnetlib import LOGOUT
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
